@@ -1,0 +1,15 @@
+{
+  "Description": "The Inforce URL Shortener is a high-performance service that converts long web addresses into compact, easy-to-share links. Our solution provides instant redirection while maintaining link integrity through a secure hashing algorithm. The service is particularly valuable for social media sharing, SMS communications, and any scenario requiring concise URLs. TEST MESSAGE 12321421412746 777",
+  "Algorithm": "The URL shortening process works as follows:\n1. Receives the original URL\n2. Generates a unique SHA-256 hash using:\n   - Original URL\n   - Random GUID (for uniqueness)\n   - Current timestamp\n3. Encodes the first 6 bytes as Base64\n4. Replaces unsafe characters:\n   - \u0027/\u0027 becomes \u0027_\u0027\n   - \u0027\u002B\u0027 becomes \u0027-\u0027\n5. Removes trailing \u0027=\u0027 characters\n6. Returns the 8-character short code\n7. One more test detail for update",
+  "Features": [
+    "Instant URL redirection with minimal latency",
+    "Role-based access control (Admin/User roles)",
+    "Real-time URL management dashboard",
+    "No database dependencies (stateless operation)",
+    "Secure hash-based URL generation",
+    "RESTful API for integration",
+    "Responsive Angular/React frontend",
+    "Unit-tested core functionality",
+    "ONE MORE TEST UPDATE FEATURE"
+  ]
+}

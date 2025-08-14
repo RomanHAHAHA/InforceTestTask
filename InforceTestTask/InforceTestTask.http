@@ -1,0 +1,6 @@
+@InforceTestTask_HostAddress = http://localhost:5159
+
+GET {{InforceTestTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
